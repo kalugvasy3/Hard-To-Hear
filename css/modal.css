@@ -1,0 +1,158 @@
+﻿/*See also https://www.w3schools.com/w3css/w3css_modal.asp */
+
+html, body, canvas {
+    font-family: "Helvetica Neue", sans-serif;
+    width: 100%;
+    color: #666666;
+    text-align: center;
+    min-height: 100%;
+    background-color:black;
+    font-style:normal;
+}
+
+.center {
+    margin: auto;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+}
+
+.page {
+    height: 100%;
+}
+
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #777777;
+    padding: 7px;
+    font-weight: bold;
+    font-size: xx-large;
+    height: 100px;
+    width: 300px;
+    border-bottom-color:black;
+}
+
+button:hover {
+    border: 1px solid #777777;
+    background: #777777;
+    color: #ffffff;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+    .slider:hover {
+        opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 25px;
+        height: 25px;
+        background: #4CAF50;
+        cursor: pointer;
+    }
+.hide {
+    visibility: collapse;
+    height: 0px;
+}
+.show {
+    visibility: visible;
+    height: 100%;
+}
+
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: 1fr 700px 1fr;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-gap: 3px;
+    grid-template-areas: "left top    right" 
+                         "left main   right" 
+                         "left bottom right";
+}
+
+
+.classLeft {
+    grid-area: left;
+    background-color: rgba(0,0,0,1);
+}
+
+.classRight {
+    grid-area: right;
+    background-color: rgba(0,0,0,1);
+}
+
+.classMain {
+    grid-area: main;
+    background-color: rgba(0,0,0,1);
+}
+
+.classTop {
+    grid-area: top;
+    background-color: rgba(0,0,0,1);
+}
+
+.classBottom {
+    grid-area: bottom;
+    background-color: rgba(0,0,0,1);
+}
+
+.left {
+    font-size: large;
+    text-align: left;
+}
+
+
+
+/*@media screen and (orientation:landscape) {
+
+
+    .grid-container {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-rows: 138px 1fr 1fr 170px;
+        grid-template-columns: 138px 1fr 1fr 170px;
+        grid-gap: 3px;
+        grid-template-areas: "t i i a" "t i i a" "t i i a" "t i i a";
+    }
+
+
+    #canvasML5 {
+        grid-area: t;
+        background-color: rgba(0,0,0,1);
+    }
+
+    #canvasImg {
+        grid-area: i;
+        background-color: rgba(0,0,0,1);
+    }
+
+    #canvasAdd {
+        grid-area: a;
+        background-color: rgba(0,0,0,1);
+    }
+}*/
+
+
+
+
