@@ -36,8 +36,13 @@ var PROCESS;
                         this._sound = new p5.AudioIn();
                         this._sound.getSources(sourceRecive);
                         this._sound.amp(10);
-                        this._sound.connect(pp.soundOut);
+                        this._sound.disconnect();
+                        this._sound.connect(this._filter);
                     }
+                    this._filter.disconnect();
+                    this._filter.connect(pp.soundOut);
+                    this._fft = new p5.FFT(0.5, 128);
+                    this._fft.setInput(pp.soundOut);
                 };
                 let onClickStart = () => {
                     if (this.blnReady) {
@@ -125,14 +130,28 @@ var PROCESS;
                         this._noise.amp(this._amp);
                     }
                     else {
-                        this._sound.amp(this._amp);
+                        this._sound.amp(this._amp / 5);
                     }
                     pp.noStroke();
+                    let central_freq = (this._lo_freq + this._hi_freq) / 2;
+                    let Q = central_freq / (this._hi_freq - this._lo_freq);
+                    this._filter.set(central_freq, Q);
+                    this.spectrum = this._fft.analyze();
+                    let color;
+                    for (let i = 0; i < this.spectrum.length; i++) {
+                        let x = pp.map(i, 0.0, this.spectrum.length, 0.0, pp.width);
+                        let h = -pp.height + pp.map(this.spectrum[i], 0, 255, pp.height, 0);
+                        color = this.spectrum[i] * 2;
+                        pp.fill(color);
+                        pp.rect(x, pp.height, pp.width / this.spectrum.length, h);
+                    }
+                    pp.fill(128, 128, 128, 255);
+                    pp.text(this._lo_freq + " Hz. ... " + this._hi_freq + " Hz.", pp.width / 2, 100);
                     let val = this._sound.getLevel();
                     pp.fill(38, 153, 0);
                     pp.stroke(0, 0, 0);
-                    let h = pp.map(val, 0, 1, pp.height - 25, 0);
-                    pp.ellipse(pp.width / 2, h - 25, pp.width - 25, 10);
+                    let h = pp.map(val, 0, 1, pp.height, 0);
+                    pp.ellipse(pp.width / 2, h, pp.width - 25, 7);
                 };
             };
             this._background = 0;
