@@ -20,7 +20,7 @@ var PROCESS;
         constructor(background = 255, divId = "") {
             this.isNoise = false;
             this._divId = "divSound";
-            this._amp = 10.0;
+            this._amp = 3.0;
             this._lo_freq = 20;
             this._hi_freq = 24000;
             this.sketch = (pp) => {
@@ -88,7 +88,7 @@ var PROCESS;
                     this._canvas.parent("divSound");
                     this._spanAmp = pp.createSpan("<br />Volume/Amplitude<br />");
                     this._spanAmp.parent('divSlider');
-                    this._slider_amp = pp.createSlider(0, 100, 10, 0.1);
+                    this._slider_amp = pp.createSlider(0, 10, 3, 0.1);
                     this._slider_amp.size(300);
                     this._slider_amp.value(this._amp);
                     this._slider_amp.class("slider");
@@ -126,12 +126,6 @@ var PROCESS;
                         this._slider_lo_freq.value(this._lo_freq);
                     }
                     this._amp = parseInt(this._slider_amp.value().toString());
-                    if (this.isNoise) {
-                        this._noise.amp(this._amp);
-                    }
-                    else {
-                        this._sound.amp(this._amp / 5);
-                    }
                     pp.noStroke();
                     let central_freq = (this._lo_freq + this._hi_freq) / 2;
                     let Q = central_freq / (this._hi_freq - this._lo_freq);
