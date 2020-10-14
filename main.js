@@ -1,1 +1,145 @@
-const _0x4e0c=['classList','deviceId','elt','BandPass','start','createButton','\x20id\x20=\x20','createCanvas','divSound','_slider_lo_freq','toString','rect','parent','_spanAmp','_hi_freq','slider','_spanLow','length','createSpan','hide','text','blnStart','\x20Hz.','forEach','disconnect','remove','_fft','FFT','getElementById','width','height','_lo_freq','btnStart','_noise','_filter','map','divMain','_slider_amp','class','button','divSlider','Start','show','Sound','_amp','spectrum','preload','setInput','size','AudioIn','mousePressed','amp','_sound','_divId','stop','setup','createSlider','onresize','soundOut','Stop','blnReady','_spanHi','fill','brown','windowResized','value','background','noticeAgree','<br\x20/>Low\x20Frequency<br\x20/>','log','noStroke','_slider_hi_freq','<br\x20/>High\x20Frequency<br\x20/>','connect','sketch','isNoise','Noise','kind','_background'];(function(_0x29fea6,_0x4e0c4d){const _0x2e9861=function(_0x17da6f){while(--_0x17da6f){_0x29fea6['push'](_0x29fea6['shift']());}};_0x2e9861(++_0x4e0c4d);}(_0x4e0c,0xb4));const _0x2e98=function(_0x29fea6,_0x4e0c4d){_0x29fea6=_0x29fea6-0x0;let _0x2e9861=_0x4e0c[_0x29fea6];return _0x2e9861;};var PROCESS;(function(_0x17da6f){const _0x3210f4=_0x2e98;window[_0x3210f4('0x23')]=()=>{return![];},window['onload']=()=>{return document['getElementById']('btnAgree')['addEventListener']('click',()=>{const _0x337959=_0x2e98;document[_0x337959('0x6')](_0x337959('0x2d'))['classList']['add'](_0x337959('0x4c')),document[_0x337959('0x6')](_0x337959('0xe'))[_0x337959('0x39')][_0x337959('0x3')](_0x337959('0x4c')),document[_0x337959('0x6')](_0x337959('0xe'))[_0x337959('0x39')][_0x337959('0x3')](_0x337959('0x14'));var _0x3ed7c5=new _0x17da6f[(_0x337959('0x15'))]();_0x3ed7c5[_0x337959('0x35')]=![];}),![];};}(PROCESS||(PROCESS={})));var PROCESS;(function(_0x52a220){const _0x27a6b0=_0x2e98;class _0x44467f{constructor(_0x4c01e0=0xff,_0x12fcd1=''){const _0x208fdc=_0x2e98;this[_0x208fdc('0x35')]=![],this[_0x208fdc('0x1f')]=_0x208fdc('0x41'),this['_amp']=0xa,this['_lo_freq']=0x14,this[_0x208fdc('0x47')]=0x5dc0,this[_0x208fdc('0x34')]=_0x26b8c4=>{const _0x273b58=_0x208fdc;let _0x14e0b3=()=>{const _0x42a547=_0x2e98;this[_0x42a547('0xc')]=new p5[(_0x42a547('0x3c'))](),this[_0x42a547('0x35')]?(this[_0x42a547('0xb')]=new p5[(_0x42a547('0x36'))](_0x42a547('0x29')),this[_0x42a547('0xb')][_0x42a547('0x1d')](0x1),this['_noise'][_0x42a547('0x2')](),this['_noise'][_0x42a547('0x33')](this[_0x42a547('0xc')])):(this['_sound']=new p5[(_0x42a547('0x1b'))](),this['_sound']['getSources'](_0x3e9bcf),this[_0x42a547('0x1e')][_0x42a547('0x1d')](0xa),this['_sound']['disconnect'](),this[_0x42a547('0x1e')][_0x42a547('0x33')](this[_0x42a547('0xc')])),this[_0x42a547('0xc')][_0x42a547('0x2')](),this[_0x42a547('0xc')][_0x42a547('0x33')](_0x26b8c4[_0x42a547('0x24')]),this['_fft']=new p5[(_0x42a547('0x5'))](0.5,0x80),this[_0x42a547('0x4')][_0x42a547('0x19')](_0x26b8c4['soundOut']);},_0x54765f=()=>{const _0x2512c3=_0x2e98;return this[_0x2512c3('0x26')]&&(this[_0x2512c3('0x4e')]==![]?(this[_0x2512c3('0xa')][_0x2512c3('0x3b')]['textContent']=_0x2512c3('0x25'),this[_0x2512c3('0x4e')]=!![],this[_0x2512c3('0x35')]?this['_noise']['start']():this['_sound'][_0x2512c3('0x3d')]()):(this[_0x2512c3('0xa')][_0x2512c3('0x3b')]['textContent']='Start',this[_0x2512c3('0x4e')]=![],this[_0x2512c3('0x35')]?this[_0x2512c3('0xb')][_0x2512c3('0x20')]():this['_sound']['stop']())),![];},_0x3e9bcf=_0x59a23b=>{const _0x587124=_0x2e98;return _0x59a23b[_0x587124('0x1')](_0x390a10=>{const _0x5b3111=_0x587124;console[_0x5b3111('0x2f')](_0x390a10[_0x5b3111('0x37')]+':\x20'+_0x390a10['label']+_0x5b3111('0x3f')+_0x390a10[_0x5b3111('0x3a')]);}),![];};_0x26b8c4[_0x273b58('0x18')]=()=>{},_0x26b8c4[_0x273b58('0x21')]=()=>{const _0x16e16b=_0x273b58;this[_0x16e16b('0x26')]=![],this[_0x16e16b('0xa')]=_0x26b8c4[_0x16e16b('0x3e')](_0x16e16b('0x13')),this[_0x16e16b('0xa')][_0x16e16b('0x10')](_0x16e16b('0x11')),this[_0x16e16b('0xa')][_0x16e16b('0x45')]('divButton'),this['btnStart'][_0x16e16b('0x1c')](_0x54765f),this['_canvas']=_0x26b8c4[_0x16e16b('0x40')](0x12c,0x96),this['_canvas'][_0x16e16b('0x45')](_0x16e16b('0x41')),this['_spanAmp']=_0x26b8c4[_0x16e16b('0x4b')]('<br\x20/>Volume/Amplitude<br\x20/>'),this[_0x16e16b('0x46')]['parent']('divSlider'),this[_0x16e16b('0xf')]=_0x26b8c4['createSlider'](0x0,0x64,0xa,0.1),this[_0x16e16b('0xf')]['size'](0x12c),this['_slider_amp']['value'](this[_0x16e16b('0x16')]),this[_0x16e16b('0xf')][_0x16e16b('0x10')](_0x16e16b('0x48')),this[_0x16e16b('0xf')][_0x16e16b('0x45')](_0x16e16b('0x12')),this[_0x16e16b('0x49')]=_0x26b8c4[_0x16e16b('0x4b')](_0x16e16b('0x2e')),this[_0x16e16b('0x49')][_0x16e16b('0x45')](_0x16e16b('0x12')),this['_slider_lo_freq']=_0x26b8c4[_0x16e16b('0x22')](0x0,0x5de8,0x1),this[_0x16e16b('0x42')][_0x16e16b('0x1a')](0x12c),this[_0x16e16b('0x42')][_0x16e16b('0x2b')](this['_lo_freq']),this[_0x16e16b('0x42')][_0x16e16b('0x10')](_0x16e16b('0x48')),this[_0x16e16b('0x42')][_0x16e16b('0x45')]('divSlider'),this[_0x16e16b('0x27')]=_0x26b8c4['createSpan'](_0x16e16b('0x32')),this[_0x16e16b('0x27')]['parent'](_0x16e16b('0x12')),this[_0x16e16b('0x31')]=_0x26b8c4[_0x16e16b('0x22')](0xa,0x5df2,0x1),this[_0x16e16b('0x31')][_0x16e16b('0x1a')](0x12c),this[_0x16e16b('0x31')][_0x16e16b('0x2b')](this[_0x16e16b('0x47')]),this[_0x16e16b('0x31')][_0x16e16b('0x10')](_0x16e16b('0x48')),this[_0x16e16b('0x31')][_0x16e16b('0x45')]('divSlider'),_0x14e0b3(),this['blnReady']=!![];},_0x26b8c4[_0x273b58('0x2a')]=()=>{},_0x26b8c4['draw']=()=>{const _0x1c988d=_0x273b58;_0x26b8c4[_0x1c988d('0x2c')](this[_0x1c988d('0x38')]),this[_0x1c988d('0x9')]=parseInt(this[_0x1c988d('0x42')][_0x1c988d('0x2b')]()[_0x1c988d('0x43')]());this[_0x1c988d('0x9')]>this[_0x1c988d('0x47')]-0xa&&(this[_0x1c988d('0x47')]=this[_0x1c988d('0x9')]+0xa,this[_0x1c988d('0x31')]['value'](this[_0x1c988d('0x47')]));;this[_0x1c988d('0x47')]=parseInt(this[_0x1c988d('0x31')][_0x1c988d('0x2b')]()[_0x1c988d('0x43')]());this['_hi_freq']<this[_0x1c988d('0x9')]+0xa&&(this['_lo_freq']=this[_0x1c988d('0x47')]-0xa,this[_0x1c988d('0x42')][_0x1c988d('0x2b')](this[_0x1c988d('0x9')]));this[_0x1c988d('0x16')]=parseInt(this[_0x1c988d('0xf')][_0x1c988d('0x2b')]()['toString']());this[_0x1c988d('0x35')]?this[_0x1c988d('0xb')]['amp'](this['_amp']):this[_0x1c988d('0x1e')]['amp'](this[_0x1c988d('0x16')]);_0x26b8c4[_0x1c988d('0x30')]();let _0x33b0f4=(this[_0x1c988d('0x9')]+this[_0x1c988d('0x47')])/0x2,_0xbe4a27=_0x33b0f4/(this['_hi_freq']-this[_0x1c988d('0x9')]);this[_0x1c988d('0xc')]['set'](_0x33b0f4,_0xbe4a27),this[_0x1c988d('0x17')]=this[_0x1c988d('0x4')]['analyze']();let _0x4bc37a;for(let _0x31b92d=0x0;_0x31b92d<this[_0x1c988d('0x17')][_0x1c988d('0x4a')];_0x31b92d++){let _0x894934=_0x26b8c4[_0x1c988d('0xd')](_0x31b92d,0x0,this[_0x1c988d('0x17')][_0x1c988d('0x4a')],0x0,_0x26b8c4[_0x1c988d('0x7')]),_0x285cdc=-_0x26b8c4[_0x1c988d('0x8')]+_0x26b8c4[_0x1c988d('0xd')](this[_0x1c988d('0x17')][_0x31b92d],0x0,0xff,_0x26b8c4[_0x1c988d('0x8')],0x0);_0x4bc37a=this['spectrum'][_0x31b92d]*0x2,_0x26b8c4[_0x1c988d('0x28')](_0x4bc37a),_0x26b8c4[_0x1c988d('0x44')](_0x894934,_0x26b8c4[_0x1c988d('0x8')],_0x26b8c4[_0x1c988d('0x7')]/this[_0x1c988d('0x17')][_0x1c988d('0x4a')],_0x285cdc);}_0x26b8c4[_0x1c988d('0x28')](0x80,0x80,0x80,0xff),_0x26b8c4[_0x1c988d('0x4d')](this['_lo_freq']+'\x20Hz.\x20...\x20'+this[_0x1c988d('0x47')]+_0x1c988d('0x0'),_0x26b8c4[_0x1c988d('0x7')]/0x2,0x64);};},this[_0x208fdc('0x38')]=0x0,this[_0x208fdc('0x4e')]=![],this['_p']=new p5(this[_0x208fdc('0x34')]);}}_0x52a220[_0x27a6b0('0x15')]=_0x44467f;}(PROCESS||(PROCESS={})));
+var PROCESS;
+(function (PROCESS) {
+    window.onresize = () => {
+        return false;
+    };
+    window.onload = () => {
+        document.getElementById("btnAgree").addEventListener("click", () => {
+            document.getElementById("noticeAgree").classList.add("hide");
+            document.getElementById("divMain").classList.remove("hide");
+            document.getElementById("divMain").classList.remove("show");
+            var scetch0 = new PROCESS.Sound();
+            scetch0.isNoise = false;
+        });
+        return false;
+    };
+})(PROCESS || (PROCESS = {}));
+var PROCESS;
+(function (PROCESS) {
+    class Sound {
+        constructor(background = 255, divId = "") {
+            this.isNoise = false;
+            this._divId = "divSound";
+            this._amp = 10.0;
+            this._lo_freq = 20;
+            this._hi_freq = 24000;
+            this.sketch = (pp) => {
+                let setFilter = () => {
+                    this._filter = new p5.BandPass();
+                    if (this.isNoise) {
+                        this._noise = new p5.Noise('brown');
+                        this._noise.amp(1);
+                        this._noise.disconnect();
+                        this._noise.connect(this._filter);
+                    }
+                    else {
+                        this._sound = new p5.AudioIn();
+                        this._sound.getSources(sourceRecive);
+                        this._sound.amp(10);
+                        this._sound.connect(pp.soundOut);
+                    }
+                };
+                let onClickStart = () => {
+                    if (this.blnReady) {
+                        if (this.blnStart == false) {
+                            this.btnStart.elt.textContent = "Stop";
+                            this.blnStart = true;
+                            if (this.isNoise) {
+                                this._noise.start();
+                            }
+                            else {
+                                this._sound.start();
+                            }
+                        }
+                        else {
+                            this.btnStart.elt.textContent = "Start";
+                            this.blnStart = false;
+                            if (this.isNoise) {
+                                this._noise.stop();
+                            }
+                            else {
+                                this._sound.stop();
+                            }
+                        }
+                    }
+                    return false;
+                };
+                let sourceRecive = (devices) => {
+                    devices.forEach((device) => {
+                        console.log(device.kind + ": " + device.label +
+                            " id = " + device.deviceId);
+                    });
+                    return false;
+                };
+                pp.preload = () => {
+                };
+                pp.setup = () => {
+                    this.blnReady = false;
+                    this.btnStart = pp.createButton("Start");
+                    this.btnStart.class("button");
+                    this.btnStart.parent("divButton");
+                    this.btnStart.mousePressed(onClickStart);
+                    this._canvas = pp.createCanvas(300, 150);
+                    this._canvas.parent("divSound");
+                    this._spanAmp = pp.createSpan("<br />Volume/Amplitude<br />");
+                    this._spanAmp.parent('divSlider');
+                    this._slider_amp = pp.createSlider(0, 100, 10, 0.1);
+                    this._slider_amp.size(300);
+                    this._slider_amp.value(this._amp);
+                    this._slider_amp.class("slider");
+                    this._slider_amp.parent('divSlider');
+                    this._spanLow = pp.createSpan("<br />Low Frequency<br />");
+                    this._spanLow.parent('divSlider');
+                    this._slider_lo_freq = pp.createSlider(0, 24040, 1);
+                    this._slider_lo_freq.size(300);
+                    this._slider_lo_freq.value(this._lo_freq);
+                    this._slider_lo_freq.class("slider");
+                    this._slider_lo_freq.parent('divSlider');
+                    this._spanHi = pp.createSpan("<br />High Frequency<br />");
+                    this._spanHi.parent('divSlider');
+                    this._slider_hi_freq = pp.createSlider(10, 24050, 1);
+                    this._slider_hi_freq.size(300);
+                    this._slider_hi_freq.value(this._hi_freq);
+                    this._slider_hi_freq.class("slider");
+                    this._slider_hi_freq.parent('divSlider');
+                    setFilter();
+                    this.blnReady = true;
+                };
+                pp.windowResized = () => {
+                };
+                pp.draw = () => {
+                    pp.background(this._background);
+                    this._lo_freq = parseInt(this._slider_lo_freq.value().toString());
+                    if (this._lo_freq > this._hi_freq - 10) {
+                        this._hi_freq = this._lo_freq + 10;
+                        this._slider_hi_freq.value(this._hi_freq);
+                    }
+                    ;
+                    this._hi_freq = parseInt(this._slider_hi_freq.value().toString());
+                    if (this._hi_freq < this._lo_freq + 10) {
+                        this._lo_freq = this._hi_freq - 10;
+                        this._slider_lo_freq.value(this._lo_freq);
+                    }
+                    this._amp = parseInt(this._slider_amp.value().toString());
+                    if (this.isNoise) {
+                        this._noise.amp(this._amp);
+                    }
+                    else {
+                        this._sound.amp(this._amp);
+                    }
+                    pp.noStroke();
+                    let val = this._sound.getLevel();
+                    pp.fill(38, 153, 0);
+                    pp.stroke(0, 0, 0);
+                    let h = pp.map(val, 0, 1, pp.height - 25, 0);
+                    pp.ellipse(pp.width / 2, h - 25, pp.width - 25, 10);
+                };
+            };
+            this._background = 0;
+            this.blnStart = false;
+            this._p = new p5(this.sketch);
+        }
+    }
+    PROCESS.Sound = Sound;
+})(PROCESS || (PROCESS = {}));
+//# sourceMappingURL=main.js.map
